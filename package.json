@@ -1,0 +1,14 @@
+{
+  "name": "steam-achievements",
+  "private": true,
+  "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "dev": "yarn wsrun dev"
+  },
+  "workspaces": [
+    "steam-achievements-api"
+  ],
+  "devDependencies": {
+    "wsrun": "^5.2.4"
+  }
+}
